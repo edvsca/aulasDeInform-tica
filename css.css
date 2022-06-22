@@ -1,34 +1,24 @@
 h1 {
-	color: #680a1d;
 	text-align: center;
-	font-family: 'Joan', serif;
+	font-family: cursive;
 }
-
-h2{
-	font-family: 'Joan', serif;
-	text-align: center;
+.esportes {
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 4%;
 }
-
-.card {
-	background-color: #680a1d;
-	width: 40%;
-	border-radius: 15px;
-	padding: 25px;
-	margin: 8px;
+.esporte {
+ 	width: 50%;
+ 	padding: 2%;
+ 	background-color: gray;
+ 	margin: 9px;
+ 	border-radius: 15px;
 }
-
-.cards {
-	background-color: #90856f;
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-}
-
 img {
-	width: 350px;
-
+	max-height: 250px;
+	max-width: 250px;
 }
-
-p{
-	font-family: 'Joan', serif;
+body {
+background-color: darkorange;
 }
